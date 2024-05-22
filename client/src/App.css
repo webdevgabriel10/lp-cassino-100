@@ -1,0 +1,12 @@
+/* Define the font face */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./components/fonts/Gotham-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font to the entire document */
+html {
+    font-family: 'Gotham', sans-serif;
+}
